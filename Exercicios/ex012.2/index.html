@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>imagens</title>
+</head>
+<body>
+    <h1> otimizando as imagens</h1>
+    <p> como pode ver, essas imagens irão mudar de tamanho conforme o navegador</p>
+    <picture>
+        <source media="(max-width:420 )" srcset="img/tigraop" type="image/jpg">
+        <source media="(max-width:550px )" srcset="img/tigraomp.jpg" type="image/jpg">
+        <source media="(max-width: 850px )" srcset="img/tigraom.jpg" type="image/jpg">
+        <img src="img/tigraog.jpg" alt="tigrao">
+
+    </picture>
+</body>
+</html>

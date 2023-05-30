@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+        body{
+            background-color: rgba(142, 142, 173, 0.87);
+            font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+        }
+
+        h1{
+            border: 10px solid black;
+            background-color: white;
+            padding: 20px;
+            margin: auto;
+            text-align: center;
+        }
+
+        nav{
+            box-shadow: 4pix 4pix 4pix black;
+            background-color: white;
+        }
+
+        a{
+            text-decoration: none;
+            margin: 20px;
+           color: black;
+        }
+
+        nav > a:hover{
+            text-decoration: underline
+        }
+
+        article{
+            background-color: white;
+            padding: 20px,20px;
+            border: 10px solid black;
+            box-shadow: 6pix 6pix 6pix black;
+        }
+
+        section{
+            color: rgb(0, 0, 0);
+        }
+
+        .especial{
+            color: yellow;
+        }
+
+        footer{
+            text-align: center;
+            border: 5px solid rgb(24, 136, 84);
+            background-color: white;
+        }
+
+        aside{
+            padding: 5px;
+            margin: 10px;
+            color: brown;
+        }
+
+        article > a{
+            text-decoration: underline;
+            
+        }
+
+
+    </style>
+    <title>Document</title>
+</head>
+<body>
+    <h1>Resumo de caixas e Grouping Tags</h1>
+    <header>
+        <h2>Acesse os conteudos abaixo</h2>
+        <nav>
+            <a href="#">link</a>
+            <a href="#">link</a>
+            <a href="#">link</a>
+            <a href="#">link</a>
+        </nav>
+        <main>
+            <section>
+    
+            </section>
+            <section id="ola">
+                <p class="especial">Assunto de futebol no momento</p>
+                <article>
+                    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Iure quas quidem architecto enim fuga placeat eveniet, expedita exercitationem eaque ipsam quasi facere earum sunt, beatae tempore repellat reprehenderit voluptatum mollitia?</p>
+                    <p>Para ver a noticia completa <a href="#">Clique aqui</a></p>
+                    <aside>Isso fopi escrito por emanuel</aside>
+                </article>
+            </section>
+            <footer>
+                <p>desenvolvido por emanuel</p>
+            </footer>
+        </main>
+    </header>
+</body>
+</html>

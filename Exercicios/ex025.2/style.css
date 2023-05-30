@@ -1,0 +1,36 @@
+@charset "UTF-8";
+
+body{
+    background-image: linear-gradient(to right,yellow,blue);
+    font-family:'Roboto Mono', monospace;
+    font-weight: 16px;
+    font-style: italic;
+}
+
+h1{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-style: italic;
+}
+
+h2{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-style: normal;
+    font-weight: bolder;
+}
+
+h2#segundo{
+    text-align: center;
+}
+
+p{
+    font-weight: bolder;
+}
+
+.primeira{
+    background-color: rgba(64, 105, 22, 0.781);
+    text-align: center;
+}
+
+.segunda{
+    background-color: rgba(101, 194, 8, 0.541);
+}

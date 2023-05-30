@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        a:visited{
+            color: brown;
+        }
+
+        a:active{
+            color: blue;
+        
+        }
+        a{
+            color: brown;
+            text-decoration: none;
+            font-weight: bold;
+        }
+
+        a:hover{
+            text-decoration: underline;
+            color: black;
+        }
+
+        a::before{
+            content: '⇐';
+            color: rgba(209, 47, 47, 0.877);
+            font-weight: normal;
+        }
+
+        a::after{
+            content: '⇒';
+            color: rgba(146, 22, 22, 0.699);
+            font-weight: normal;
+        }
+
+        .normal{
+            content: '∑';
+            color: chartreuse;
+            font-weight: normal;
+        }
+
+    </style>
+</head>
+<body>
+    <h1> Minhas redes sociais</h1>
+    <ul>
+        <li><a href="youtube.com" target="_blank">Acesse o canal do youtube</a></li>
+        <li><a href="https://www.starplus.com/?" target="_blank">Acesse o canal starplus</a></li>
+        <li><a href="https://pt.aliexpress.com" target="_blank" class="normal">Acesse o aliexpress</a></li>
+    </ul>
+</body>
+</html>

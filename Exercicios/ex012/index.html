@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>midias</title>
+</head>
+<body>
+    <h1> midias em html imagens</h1>
+    <p> vamos ver algumas imagens se adaptando</p>
+
+    <picture>
+        <source media="(max-width: 750px)" srcset="imagens/foto-pzi.png" type="image/png">
+        <source media="(max-width: 1050px)" srcset="imagens/foto-p.png" type="image/png">
+        <img src="imagens/foto-pzao.png" alt="imagens">
+    </picture>
+
+    <h1> audio</h1>
+    <p> vamos colocar alguns audios aqui</p>
+
+    <audio preload="metadata" autoplay controls>
+
+        <source src="midia/strawsquare.mp3" type="audio/mpeg">
+        <source src="midia/strawsquare.ogg" type="audio/ogg">
+        <p>infelizmente não foi possivel carregar o arquivo caso queira baixalo,<a href="midia/strawsquare.mp3"> clique aqui para baixar </a></p>
+
+    </audio>
+
+
+
+</body> 
+</html>
