@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Teste de image mde fundo</title>
+    <style>
+
+        body{
+            background-image: url(imagens/wallpaper006.jpg)
+        }
+
+        div.bloco{
+            display: inline-block;
+            border: 5px solid black;
+            width: 300px;
+            height: 300px;
+            background-color: rgb(8, 196, 196);
+        }
+
+        div#corn{
+            background-color: brown;
+        }
+
+        div#corndgr{
+            background-image: linear-gradient(to left ,green, red);
+        }
+
+        div#img{
+            background-image: url(imagens/pattern004.png);
+        }
+
+        div#corn:hover{
+            background-image: url(imagens/wallpaper003.jpg);
+        }
+
+        div#corndgr:hover{
+            background-image: url(imagens/wallpaper002.jpg);
+        }
+
+        div#img:hover{
+            background-image: url(imagens/wallpaper006.jpg);
+        }
+    </style>
+</head>
+<body>
+    <div class="bloco" id="corn">
+    
+    </div>
+
+    <div class="bloco" id="corndgr">
+
+    </div>
+
+    <div class="bloco" id="img">
+
+    </div>
+</body>
+</html>
