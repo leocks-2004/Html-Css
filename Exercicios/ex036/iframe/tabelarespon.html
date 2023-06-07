@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        table{
+            border-collapse: collapse;  
+            width: 500px;
+        }
+
+        td,th{
+           border: 1px solid black;
+           padding: 10px;
+        }
+
+        thead{
+            background-color: rgba(128, 106, 106, 0.521);
+        }
+
+        tr.primeiro{
+            background-color: rgba(230, 140, 188, 0.863);
+        }
+
+        td.esquerda{
+            text-align: right;
+        }
+
+        tr.segundo{
+            background-color: yellow;
+        }
+        tr.terceiro{
+            background-color: rgb(32, 196, 32);
+        }
+        td.ndi{
+            text-align: center;
+        }
+
+        th.largura{
+            width: 20px;
+        }
+
+
+        caption{
+            font-size: 1.5em;
+            font-weight: bold;
+        }
+
+        tfoot{
+            background-color: rgba(238, 209, 209, 0.521);
+        }
+
+        div.ex{
+            overflow-x: auto;
+        }
+    </style>
+</head>
+<body>
+    <div class="ex">
+        <table>
+            <caption> Paises da Europa e suas populaçoes</caption>
+            <thead>
+                <tr>
+                    <th class="largura" scope="col">Posição</th>
+                    <th scope="col">País</th>
+                    <th scope="col">Populaçao</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr class="primeiro">
+                    <td class="esquerda"> 1</td>
+                    <td> Russia</td>
+                    <td class="ndi"> 144.031.800</td>
+                </tr>
+                <tr class="segundo">
+                    <td class="esquerda">2</td>
+                    <td>Alemanha</td>
+                    <td class="ndi">81.276.00</td>
+                </tr>
+                <tr class="terceiro">
+                    <td class="esquerda">3</td>
+                    <td>Turquia</td>
+                    <td class="ndi">78.276.000</td>
+                </tr>
+            </tbody>
+            <tfoot>
+                <tr>
+                    <th></th>
+                    <th scope="row">Total</th>
+                    <th>320.222.000</th>
+                </tr>
+            </tfoot>
+        </table>
+    </div>
+</body>
+</html>
