@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>Formulario </h1>
+    <form action="formulario.php" method="get" autocomplete="on">
+        <p>
+            <label for="inome"> Nome:</label>
+            <input type="text" name="nome" id="inome" required autocomplete="username" placeholder="nome">
+        </p>
+
+        <p>
+            <label for="isenha"> Media</label>
+            <input type="number" name="senha" id="isenha" min="0" max="10" step="0.1" placeholder="media" required >
+        </p>
+
+        <p>
+            <label for="imonth"> Mes</label>-ex
+            <input type="month" name="mes" id="imonth" required autocomplete="ccp-month">
+        </p>
+
+        <p>
+            <label for="idate"> Data</label>
+            <input type="date" name="data" id="idate" placeholder="12/06/2023" required >
+        </p>
+
+        <p>
+            <label for="ihora"> hora</label>
+            <input type="time" name="ihora" id="ihora" required>
+        </p>
+
+        <input type="submit" value="enviar">
+        <input type="reset" value="Limpar">
+
+
+    </form>
+</body>
+</html>
