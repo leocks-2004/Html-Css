@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        fieldset{
+            margin-bottom: 100px;
+        }
+    </style>
+</head>
+<body>
+    <h1>formularios Check</h1>
+    <form action="formulario.php">
+        <fieldset>
+            <legend>Sexo</legend>
+            <form action="formulario.php" method="get" autocomplete="on">
+            <label for="imas"> Masculino</label> <input type="radio" name="imas" id="imas" value="M"> <br>
+            <label for="imul"> Feminino</label><input type="radio" name="imas" id="imul" value="F"> <br>
+            </form>
+        </fieldset>
+        <fieldset>
+            <legend>Comidas Favoritas</legend>
+            <form action="formulario.php" autocomplete="on">
+                <label for="iuva"> Uva</label> <input type="checkbox" name="iuva" id="iuva">  <br>
+                <label for="imaça"> Maça</label> <input type="checkbox" name="imaça" id="imaça">  <br>
+                <label for="itorta">Torta</label><input type="checkbox" name="itorta" id="itorta">  <br>
+                <label for="icereja"> Cereja</label><input type="checkbox" name="icereja" id="icereja">  <br>
+                <label for="ibanana"> Banana</label> <input type="checkbox" name="ibanana" id="ibanana">  <br>
+        
+            </form>
+        </fieldset>
+        <input type="submit" value="Enviar">
+        <input type="reset" value="Limpar">
+    </form>
+</body>
+</html>
