@@ -1,0 +1,126 @@
+@charset "UTF-8";
+
+
+@media print {
+
+    main::after{
+        content: "Isso foi desenolvido pelo leo";
+    }
+
+    img#v{
+        display: none;
+    }
+
+    img#vt{
+        display: none;
+    }
+    
+    img#vi{
+        display: block;
+    }
+    
+    img#vp{
+        display: none;
+    }
+    
+    img#vtv{
+        display: none;
+    }
+
+}
+
+
+
+@media screen and (min-width: 768px) and (max-width:992px) {
+   
+    body{
+        background: url(../imagens/back-tablet.jpg);
+    }
+
+    img#v{
+        display: none;
+    }
+
+    img#vt{
+        display: block;
+    }
+    
+    img#vi{
+        display: none;
+    }
+    
+    img#vp{
+        display: none;
+    }
+    
+    img#vtv{
+        display: none;
+    }
+
+
+
+
+}
+
+
+
+
+@media screen and (min-width:992px) and (max-width:1200px) {
+    
+    body{
+        background-image: url(../imagens/back-pc.jpg);
+    }
+
+    img#v{
+        display: none;
+    }
+
+    img#vt{
+        display: none;
+    }
+    
+    img#vi{
+        display: none;
+    }
+    
+    img#vp{
+        display: block;
+    }
+    
+    img#vtv{
+        display: none;
+    }
+
+}
+
+
+
+
+@media screen and (min-width:1200px) {
+
+    body{
+        background-image: url(../imagens/back-tv.jpg);
+    }
+
+
+    img#v{
+        display: none;
+    }
+
+    img#vt{
+        display: none;
+    }
+    
+    img#vi{
+        display: none;
+    }
+    
+    img#vp{
+        display: none;
+    }
+    
+    img#vtv{
+        display: block;
+    }
+    
+}
